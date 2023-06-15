@@ -2,6 +2,7 @@
 import NavBar from './components/NavBar.vue'
 import HeroSection from './components/HeroSection.vue'
 import AboutSection from './components/AboutSection.vue'
+import AppInfo from './components/AppInfo.vue';
 </script>
 
 <template>
@@ -15,8 +16,16 @@ import AboutSection from './components/AboutSection.vue'
     </main>
   </div>
   <!--about the app-->
-  <section>
+  <article>
     <AboutSection />
+  </article>
+  <!--app info (screenshot & other contents)-->
+  <section>
+    <AppInfo />
+  </section>
+  <!--services section-->
+  <section>
+    
   </section>
 </template>
 

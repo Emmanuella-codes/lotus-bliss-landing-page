@@ -23,7 +23,7 @@ const toggle = () => {
         journey towards inner peace and harmony. Whether you're seeking to relax, find inspiration,
         or cultivate mindfulness, Lotus Bliss is here to support you every step of the way.
       </p>
-
+      <br />
       <p class="text-lg lg:text-xl" v-if="show">
         What sets Lotus Bliss apart is our dedication to curating content that caters to your unique
         needs. Our team of experts has meticulously handpicked a wide range of features and
