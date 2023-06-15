@@ -3,7 +3,7 @@ import { Disclosure, DisclosurePanel } from '@headlessui/vue'
 </script>
 
 <template>
-  <div class="navbar">
+  <div id="navbar">
     <Disclosure as="nav" class="card">
       <div
         class="fixed top-0 left-0 right-0 z-50 mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 flex my-2 items-center justify-between card-inner"
