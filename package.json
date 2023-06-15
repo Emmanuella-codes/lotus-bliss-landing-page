@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.14",
+    "aos": "^2.3.4",
     "flowbite": "^1.6.6",
     "oh-vue-icons": "^1.0.0-rc3",
     "vue": "^3.3.4"
