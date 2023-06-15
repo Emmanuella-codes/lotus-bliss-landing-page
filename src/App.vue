@@ -1,20 +1,21 @@
 <script setup>
 import NavBar from './components/NavBar.vue'
+import HeroSection from './components/HeroSection.vue'
 </script>
 
 <template>
-  <header>
-    <NavBar />
-  </header>
+  <div class="bg-teal-500 py-1">
+    <header>
+      <NavBar />
+    </header>
 
-  <main></main>
+    <main>
+      <HeroSection />
+    </main>
+  </div>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-}
-
 /*
 .logo {
   display: block;

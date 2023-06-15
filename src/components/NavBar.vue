@@ -3,9 +3,11 @@ import { Disclosure, DisclosurePanel } from '@headlessui/vue'
 </script>
 
 <template>
-  <div>
-    <Disclosure as="nav">
-      <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 flex my-2 items-center justify-between">
+  <div class="navbar">
+    <Disclosure as="nav" class="card">
+      <div
+        class="fixed top-0 left-0 right-0 z-50 mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 flex my-2 items-center justify-between card-inner"
+      >
         <div class="flex flex-shrink-0 items-center">
           <img class="block h-14 w-19 lg:hidden" src="../assets/logo.png" alt="logo" />
           <img class="hidden h-20 w-30 lg:block" src="../assets/logo.png" alt="logo" />
@@ -35,3 +37,17 @@ import { Disclosure, DisclosurePanel } from '@headlessui/vue'
     </Disclosure>
   </div>
 </template>
+
+<style scoped>
+.card {
+  transition: all 0.2s;
+}
+
+.card-inner {
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+}
+
+</style>

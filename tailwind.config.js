@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'tealColor': '#08979d'
+        tealColor: '#08979d',
+        brightTeal: '#1FAF9F'
       }
     }
   },
