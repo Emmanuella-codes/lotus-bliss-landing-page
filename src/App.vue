@@ -1,6 +1,11 @@
 <script setup>
 import NavBar from './components/NavBar.vue'
 import HeroSection from './components/HeroSection.vue'
+import AboutSection from './components/AboutSection.vue'
+import AppInfo from './components/AppInfo.vue'
+import OurServices from './components/OurServices.vue'
+import FaqSection from './components/FaqSection.vue'
+import FooterSection from './components/FooterSection.vue'
 </script>
 
 <template>
@@ -8,11 +13,31 @@ import HeroSection from './components/HeroSection.vue'
     <header>
       <NavBar />
     </header>
-
+    <!--hero-->
     <main>
       <HeroSection />
     </main>
   </div>
+  <!--about the app-->
+  <article>
+    <AboutSection />
+  </article>
+  <!--app info (screenshot & other contents)-->
+  <section>
+    <AppInfo />
+  </section>
+  <!--services section-->
+  <section>
+    <OurServices />
+  </section>
+  <!--faq-->
+  <section>
+    <FaqSection />
+  </section>
+  <!--Footer-->
+  <footer>
+    <FooterSection />
+  </footer>
 </template>
 
 <style scoped>
@@ -20,26 +45,6 @@ import HeroSection from './components/HeroSection.vue'
 .logo {
   display: block;
   margin: 0 auto 2rem;
-}
-*/
-
-/*
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
 }
 */
 </style>
