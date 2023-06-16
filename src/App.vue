@@ -2,8 +2,9 @@
 import NavBar from './components/NavBar.vue'
 import HeroSection from './components/HeroSection.vue'
 import AboutSection from './components/AboutSection.vue'
-import AppInfo from './components/AppInfo.vue';
+import AppInfo from './components/AppInfo.vue'
 import OurServices from './components/OurServices.vue'
+import FaqSection from './components/FaqSection.vue'
 </script>
 
 <template>
@@ -27,6 +28,10 @@ import OurServices from './components/OurServices.vue'
   <!--services section-->
   <section>
     <OurServices />
+  </section>
+  <!--faq-->
+  <section>
+    <FaqSection />
   </section>
 </template>
 
