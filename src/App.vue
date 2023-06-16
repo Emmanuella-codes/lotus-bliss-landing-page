@@ -5,6 +5,7 @@ import AboutSection from './components/AboutSection.vue'
 import AppInfo from './components/AppInfo.vue'
 import OurServices from './components/OurServices.vue'
 import FaqSection from './components/FaqSection.vue'
+import FooterSection from './components/FooterSection.vue'
 </script>
 
 <template>
@@ -33,6 +34,10 @@ import FaqSection from './components/FaqSection.vue'
   <section>
     <FaqSection />
   </section>
+  <!--Footer-->
+  <footer>
+    <FooterSection />
+  </footer>
 </template>
 
 <style scoped>
