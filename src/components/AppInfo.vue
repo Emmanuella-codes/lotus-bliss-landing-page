@@ -1,8 +1,16 @@
-<script setup></script>
+<script setup>
+import { onMounted } from 'vue'
+import { initFlowbite } from 'flowbite'
+
+// initialize components based on data attribute selectors
+onMounted(() => {
+  initFlowbite()
+})
+</script>
 
 <template>
   <div
-    class="mx-auto max-w-[85%] lg:max-w-7xl flex justify-between items-center flex-col-reverse lg:flex-row lg:justify-end"
+    class="mx-auto max-w-[85%] lg:max-w-7xl flex justify-between items-center flex-col-reverse lg:flex-row"
   >
     <div class="lg:w-1/2 w-full">
       <div class="">
