@@ -34,6 +34,8 @@ import FooterSection from './components/FooterSection.vue'
   <section>
     <FaqSection />
   </section>
+  <!--testttt-->
+
   <!--Footer-->
   <footer>
     <FooterSection />
