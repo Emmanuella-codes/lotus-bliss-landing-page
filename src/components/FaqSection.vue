@@ -9,7 +9,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div id="faq-section" class="mx-auto max-w-[85%] lg:max-w-5xl my-9">
+  <div id="faq-section" class="mx-auto max-w-[85%] lg:w-[50%] my-9">
     <div class="mb-3">
       <h3 class="text-3xl lg:text-4xl font-bold">Frequently Asked Questions</h3>
     </div>

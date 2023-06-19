@@ -20,12 +20,12 @@ export default defineComponent({
 </script>
 
 <template>
-  <div class="mx-auto max-w-[85%] lg:max-w-7xl flex justify-between items-center flex-col">
+  <div class="mx-auto max-w-[85%] lg:w-[75%] flex justify-between items-center flex-col">
     <div class="w-full text-center">
       <h2 class="text-4xl lg:text-5xl font-bold">Our Services</h2>
     </div>
     <!-- Carousel -->
-    <div class="w-full lg:w-3/5 my-7">
+    <div class="w-full lg:w-3/5 my-7 bg-gray-950">
       <!-- Carousel wrapper -->
       <Splide :options="options">
         <SplideSlide>
