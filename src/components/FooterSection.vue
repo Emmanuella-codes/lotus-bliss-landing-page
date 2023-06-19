@@ -4,18 +4,16 @@
   <div class="mt-24">
     <div class="shadow m-4">
       <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-        <div class="sm:flex sm:items-center sm:justify-between">
-          <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0">
-            <!-- <img
-              src="../assets/logo.png"
-              class="mr-3 block h-14 w-19 lg:hidden"
-              alt="Lotus Bliss Logo"
-            /> -->
-            <span
-              class="self-center text-lg lg:text-xl font-semibold whitespace-nowrap dark:text-white"
-              >Lotus Bliss</span
-            >
-          </a>
+        <div class="flex flex-col items-center justify-between lg:flex-row">
+          <div>
+            <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0">
+              <span
+                class="self-center text-lg lg:text-xl font-semibold whitespace-nowrap dark:text-white"
+                >Lotus Bliss</span
+              >
+            </a>
+          </div>
+
           <div class="lg:w-full w-full sm:w-1/2 xl:w-[22rem] space-y-4">
             <p class="text-sm text-gray-300 focus:outline-none focus:shadow-outline">
               Sign up to receive exclusive <br class="sm:hidden" />
@@ -24,7 +22,7 @@
             <div class="flex items-center space-x-2">
               <input
                 type="text"
-                class="w-full px-2 py-4 sm:py-3 rounded-lg sm:rounded-md text-sm focus:outline-none border border-[#AAAAAA] placeholder-gray-300 bg-black"
+                class="lg:w-1/2 px-2 py-4 sm:py-3 rounded-lg sm:rounded-md text-sm focus:outline-none border border-[#AAAAAA] placeholder-gray-300 bg-black"
                 placeholder="Enter your email"
               />
               <button

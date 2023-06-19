@@ -10,7 +10,7 @@ onMounted(() => {
 
 <template>
   <div
-    class="mx-auto max-w-[85%] lg:max-w-7xl flex justify-between items-center flex-col-reverse lg:flex-row"
+    class="mx-auto max-w-[85%] lg:w-[80%] flex justify-between items-center flex-col-reverse lg:flex-row"
   >
     <div class="lg:w-1/2 w-full">
       <div class="">
