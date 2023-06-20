@@ -12,12 +12,19 @@ import { Disclosure, DisclosurePanel } from '@headlessui/vue'
           <img class="block h-14 w-19 lg:hidden" src="../assets/logo.png" alt="logo" />
           <img class="hidden h-20 w-30 lg:block" src="../assets/logo.png" alt="logo" />
         </div>
+        <div class="hidden md:flex">
+          <ul class="flex flex-row gap-44">
+            <li class="navbtn"><a href="#services" font-bold>SERVICES</a></li>
+            <li class="navbtn"><a href="#faqs">FAQS</a></li>
+            <li class="navbtn"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
         <div class="buttons flex gap-8">
           <button
             class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-200 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800"
           >
             <span
-              class="relative px-4 py-2 transition-all ease-in duration-75 bg-gray-900 dark:bg-gray-900 rounded-md group-hover:bg-opacity-0"
+              class="relative px-4 py-2 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0"
             >
               LOGIN
             </span>
@@ -50,4 +57,33 @@ import { Disclosure, DisclosurePanel } from '@headlessui/vue'
   border-radius: 8px;
 }
 
+.navbtn {
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+.navbtn:focus:after,
+.navbtn:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.navbtn:after {
+  content: '';
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
 </style>

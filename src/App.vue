@@ -32,17 +32,15 @@ AOS.init()
     <AppInfo />
   </section>
   <!--services section-->
-  <section>
+  <section id="services">
     <OurServices />
   </section>
   <!--faq-->
-  <section>
+  <section id="faqs">
     <FaqSection />
   </section>
-  <!--testttt-->
-
   <!--Footer-->
-  <footer>
+  <footer id="contact">
     <FooterSection />
   </footer>
 </template>
