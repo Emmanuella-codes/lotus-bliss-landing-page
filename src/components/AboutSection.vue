@@ -9,7 +9,12 @@ const toggle = () => {
 </script>
 
 <template>
-  <div id="about" class="mx-auto max-w-[85%] lg:w-[80%] my-14">
+  <div
+    id="about"
+    class="mx-auto max-w-[85%] lg:w-[80%] my-14"
+    data-aos="fade-up"
+    data-aos-delay="200"
+  >
     <div class="">
       <h2 class="text-4xl lg:text-5xl font-bold">About</h2>
     </div>

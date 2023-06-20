@@ -6,6 +6,11 @@ import AppInfo from './components/AppInfo.vue'
 import OurServices from './components/OurServices.vue'
 import FaqSection from './components/FaqSection.vue'
 import FooterSection from './components/FooterSection.vue'
+
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+AOS.init()
 </script>
 
 <template>
