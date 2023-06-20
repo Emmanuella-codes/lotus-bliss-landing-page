@@ -20,7 +20,10 @@ export default defineComponent({
 </script>
 
 <template>
-  <div class="mx-auto max-w-[85%] lg:w-[75%] flex justify-between items-center flex-col">
+  <div
+    class="mx-auto max-w-[85%] lg:w-[75%] flex justify-between items-center flex-col"
+    data-aos="fade-up"
+  >
     <div class="w-full text-center">
       <h2 class="text-4xl lg:text-5xl font-bold">Our Services</h2>
     </div>

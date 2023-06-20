@@ -6,6 +6,11 @@ import AppInfo from './components/AppInfo.vue'
 import OurServices from './components/OurServices.vue'
 import FaqSection from './components/FaqSection.vue'
 import FooterSection from './components/FooterSection.vue'
+
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+AOS.init()
 </script>
 
 <template>
@@ -27,17 +32,15 @@ import FooterSection from './components/FooterSection.vue'
     <AppInfo />
   </section>
   <!--services section-->
-  <section>
+  <section id="services">
     <OurServices />
   </section>
   <!--faq-->
-  <section>
+  <section id="faqs">
     <FaqSection />
   </section>
-  <!--testttt-->
-
   <!--Footer-->
-  <footer>
+  <footer id="contact">
     <FooterSection />
   </footer>
 </template>

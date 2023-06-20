@@ -10,7 +10,7 @@ onMounted(() => {
 
 <template>
   <div id="faq-section" class="mx-auto max-w-[85%] lg:w-[50%] my-9">
-    <div class="mb-3">
+    <div class="mb-3" data-aos="fade-up">
       <h3 class="text-3xl lg:text-4xl font-bold">Frequently Asked Questions</h3>
     </div>
     <div
@@ -19,7 +19,7 @@ onMounted(() => {
       data-active-classes="bg-grey-900 text-gray-300"
       data-inactive-classes="text-gray-400"
     >
-      <h2 id="accordion-flush-heading-1">
+      <h2 id="accordion-flush-heading-1" data-aos="fade-up">
         <button
           type="button"
           class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-400 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400"
@@ -43,7 +43,12 @@ onMounted(() => {
           </svg>
         </button>
       </h2>
-      <div id="accordion-flush-body-1" class="hidden" aria-labelledby="accordion-flush-heading-1">
+      <div
+        id="accordion-flush-body-1"
+        class="hidden"
+        aria-labelledby="accordion-flush-heading-1"
+        data-aos="fade-up"
+      >
         <div class="py-5 border-b border-gray-200 dark:border-gray-700">
           <p class="mb-2 text-gray-300">
             A: Absolutely! Lotus Bliss is designed to cater to practitioners of all levels,
@@ -54,7 +59,7 @@ onMounted(() => {
           </p>
         </div>
       </div>
-      <h2 id="accordion-flush-heading-2">
+      <h2 id="accordion-flush-heading-2" data-aos="fade-up" data-aos-delay="150">
         <button
           type="button"
           class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-400 border-b border-gray-200 dark:border-gray-700"
@@ -78,7 +83,13 @@ onMounted(() => {
           </svg>
         </button>
       </h2>
-      <div id="accordion-flush-body-2" class="hidden" aria-labelledby="accordion-flush-heading-2">
+      <div
+        id="accordion-flush-body-2"
+        class="hidden"
+        aria-labelledby="accordion-flush-heading-2"
+        data-aos="fade-up"
+        data-aos-delay="150"
+      >
         <div class="py-5 border-b border-gray-200 dark:border-gray-700">
           <p class="mb-2 text-gray-300">
             A: Yes, you can access Lotus Bliss on multiple devices. Our web app is responsive and
@@ -90,7 +101,7 @@ onMounted(() => {
           </p>
         </div>
       </div>
-      <h2 id="accordion-flush-heading-3">
+      <h2 id="accordion-flush-heading-3" data-aos="fade-up" data-aos-delay="300">
         <button
           type="button"
           class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-400 border-b border-gray-200 dark:border-gray-700"
@@ -114,7 +125,13 @@ onMounted(() => {
           </svg>
         </button>
       </h2>
-      <div id="accordion-flush-body-3" class="hidden" aria-labelledby="accordion-flush-heading-3">
+      <div
+        id="accordion-flush-body-3"
+        class="hidden"
+        aria-labelledby="accordion-flush-heading-3"
+        data-aos="fade-up"
+        data-aos-delay="300"
+      >
         <div class="py-5 border-b border-gray-200 dark:border-gray-700">
           <p class="mb-2 text-gray-300">
             A: Lotus Bliss offers a diverse range of yoga and meditation practices to cater to
@@ -126,7 +143,7 @@ onMounted(() => {
           </p>
         </div>
       </div>
-      <h2 id="accordion-flush-heading-4">
+      <h2 id="accordion-flush-heading-4" data-aos="fade-up" data-aos-delay="350">
         <button
           type="button"
           class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-400 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400"
@@ -153,7 +170,13 @@ onMounted(() => {
           </svg>
         </button>
       </h2>
-      <div id="accordion-flush-body-4" class="hidden" aria-labelledby="accordion-flush-heading-4">
+      <div
+        id="accordion-flush-body-4"
+        class="hidden"
+        aria-labelledby="accordion-flush-heading-4"
+        data-aos="fade-up"
+        data-aos-delay="350"
+      >
         <div class="py-5 border-b border-gray-200 dark:border-gray-700">
           <p class="mb-2 text-gray-300">
             A: No but this and many more features will be available in upcoming updates. You can

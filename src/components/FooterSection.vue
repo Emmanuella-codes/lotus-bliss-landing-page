@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="mt-24">
+  <div class="mt-24" data-aos="fade-up">
     <div class="shadow m-4">
       <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div class="flex flex-col items-center justify-between lg:flex-row">
