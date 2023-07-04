@@ -3,17 +3,13 @@
   --main-bg-color: #08979d;
 }
 
-*,
-*::before,
-*::after {
+* {
   box-sizing: border-box;
   margin: 0;
-  font-weight: normal;
+  padding: 0;
 }
 
 body {
-  min-height: 100vh;
-  /*  color: var(--color-text); */
   background: #000;
   color: #fff;
   line-height: 1.6;
